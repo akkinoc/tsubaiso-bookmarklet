@@ -1,0 +1,65 @@
+/**********************************************************************************************************************
+ * Tsubaiso Bookmarklet: Weekly Report (CSS)
+ **********************************************************************************************************************/
+
+html {
+    color: #666666;
+    font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", "Meiryo", sans-serif;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: underline;
+    margin: 0.5em;
+}
+
+h2 {
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 1em;
+}
+
+table {
+    border: solid 1px #666666;
+    border-collapse: collapse;
+    border-spacing: 1px;
+    empty-cells: show;
+    table-layout: auto;
+    margin: 1em;
+}
+
+th, td {
+    border: solid 1px #666666;
+    padding: 0.25em 0.5em;
+    text-align: center;
+}
+
+th {
+    font-weight: bold;
+}
+
+th.date, th.day {
+    width: 3em;
+}
+
+th.time {
+    width: 6em;
+}
+
+th.memo {
+    width: 8em;
+}
+
+tr.day-0 td.date, tr.day-0 td.day {
+    color: #ff6666;
+}
+
+tr.day-6 td.date, tr.day-6 td.day {
+    color: #6666ff;
+}
+
+tr.day-total td {
+    font-weight: bold;
+}

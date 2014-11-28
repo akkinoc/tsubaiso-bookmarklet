@@ -1,0 +1,22 @@
+html {
+    color: #666666;
+    font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", "Meiryo", sans-serif;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: underline;
+    margin: 0.5em;
+}
+
+h2 {
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 1em;
+}
+
+ul, p {
+    margin: 1em;
+}
